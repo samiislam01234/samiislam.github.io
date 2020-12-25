@@ -1,0 +1,140 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.image-fluid{
+	margin-right:20px ;
+	margin-left: -60px;
+	border: 2px solid #000B4D ;
+	border-radius: 5%;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+@media only screen and (min-width:450px) and (min-height:1080px) {
+	.navbar-light .navbar-brand {
+		font-size: 50px;
+	}
+	.navbar-light .navbar-toggler-icon {
+		font-size: 50px;
+	}
+	.carousel-caption {
+		padding-bottom: 450px;
+		margin-bottom: 100px;
+		font-size: 25px;
+	}
+	.carousel-caption h2 {
+		font-size: 60px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+
+	}
+	.carousel-caption p {
+		width:60%;
+		margin: auto;
+		font-size: 30px;
+		line-height: 1.5;
+		padding-top: 10px;
+	}
+
+
+	.navbar-light .navbar-nav .nav-link {
+		color;
+		font-size: 25px;
+		background-color: rgba(0, 0, 0, 0.146);
+	}
+
+
+
+}
+
+.span1{
+	color: #CC0B0D;
+	font-size: 100px;
+	font-weight: 900;
+}
+.span2{
+	color: #FDD94C;
+	font-size: 100px;
+	font-weight: 900;
+}
+
+.span3{
+	color: #158441;
+	font-size: 100px;
+	font-weight: 900;
+}
